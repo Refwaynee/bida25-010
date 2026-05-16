@@ -87,28 +87,27 @@ nav{
 }
 .courses {
     display: flex;
-    flex-direction: column;   /* Stacks the h1 and the p vertically */
-    align-items: center;       /* Centers them horizontally on the screen */
-    text-align: center;        /* Ensures text wraps perfectly in the center */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
-    padding: 60px 20px 20px 20px; /* Generous top breathing room */
+    padding: 60px 20px 20px 20px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Main Bold Title */
 .courses h1 {
-    font-size: 42px;           /* Large, premium display size */
-    font-weight: 800;          /* Extra bold/heavy weight matching the mockup image */
-    color: #1e2530;            /* Rich dark slate tint */
-    margin: 0 0 12px 0;        /* Tight gap separating the title from the text below */
+    font-size: 42px;
+    font-weight: 800;
+    color: #1e2530;
+    margin: 0 0 12px 0;
     letter-spacing: -0.5px;
 }
 
 /* HERO */
 .hero {
     height: 75vh;
-    background-image:  linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/arie.jpg);
+    background-image:  linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(.images/arie.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
